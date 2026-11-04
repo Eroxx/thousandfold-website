@@ -37,7 +37,7 @@
     var W = canvas.width, side = W / GRID, s = scale(t), f = Math.max(0, Math.min(1, (s - 1) / (CLOSE - 1))) * s;
     var first = landings[0].spot, panX = -((first % GRID) + 0.5 - GRID / 2) * f * side, panY = -(Math.floor(first / GRID) + 0.5 - GRID / 2) * f * side;
     var left = W / 2 + panX - W * s / 2, top = W / 2 + panY - W * s / 2, size = side * s;
-    ctx.fillStyle = "#000"; ctx.fillRect(0, 0, W, W);
+    ctx.fillStyle = "#17171b"; ctx.fillRect(0, 0, W, W);
     ctx.save(); ctx.beginPath();
     var n = 0, i;
     for (i = 0; i < landings.length && landings[i].time <= t - DROP; i++) {
@@ -77,7 +77,7 @@
     picture.hidden = false; caption.hidden = false; again.hidden = true; after.hidden = true;
     var size = Math.min(1600, Math.round(picture.clientWidth * Math.min(2, window.devicePixelRatio || 1)));
     canvas.width = canvas.height = size;
-    ctx.fillStyle = "#000"; ctx.fillRect(0, 0, size, size);
+    ctx.fillStyle = "#17171b"; ctx.fillRect(0, 0, size, size);
     var name = pick.getAttribute("data-pick");
     caption.textContent = "";
     // The full picture for its sharp photos, up close. It starts on whichever is ready first.
