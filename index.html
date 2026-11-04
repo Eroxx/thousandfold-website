@@ -7,7 +7,7 @@
 <meta name="description" content="Pick any photo and Thousandfold builds it out of the rest of your library, tile by tile. Every tile is a real photo, untouched. Your library is never uploaded. For iPhone, iPad and Mac.">
 <meta name="theme-color" content="#17171b">
 <meta property="og:title" content="Thousandfold"><meta property="og:description" content="A photo built from your other photos."><meta property="og:image" content="og-image.jpg?v=1"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="og-image.jpg?v=1">
-<link rel="icon" href="img/icon-64.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="stylesheet" href="style.css?v=7">
+<link rel="icon" href="img/icon-64.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
 <header class="nav">
@@ -20,6 +20,7 @@
     <div class="opening-words">
       <h1>Your photo library can build any photo.</h1>
       <p class="lead">Thousandfold takes one photo and remakes it out of the rest of your photo library, tile by tile. Pick one to see how.</p>
+      <p class="hero-store"><span class="soon" data-store-soon>Coming to the App Store</span><a class="store-badge" data-store-live hidden href="#" aria-label="Download Thousandfold on the App Store"><img src="img/app-store-badge-white.svg" alt="Download on the App Store" width="132" height="44"></a></p>
     </div>
     <div class="picture" data-picture hidden>
       <canvas data-canvas width="1200" height="1200" aria-label="A picture being built out of photos"></canvas>
@@ -33,7 +34,7 @@
       <button type="button" class="pick" data-pick="butterfly" data-count="1094" data-name="The butterfly" aria-label="Build the butterfly"><img src="img/pick/butterfly-thumb.webp" alt="A black and white butterfly on red flowers" width="360" height="360"></button>
       <button type="button" class="pick" data-pick="strawberries" data-count="968" data-name="The strawberry" aria-label="Build the strawberry"><img src="img/pick/strawberries-thumb.webp" alt="A ripe strawberry" width="360" height="360"></button>
       </div>
-    <p class="after" data-after hidden>This demo uses stock photos. In the app, it&rsquo;s any photo you choose, built from your own library. <span class="soon" data-store-soon>Coming to the App Store</span><a class="store-badge" data-store-live hidden href="#" aria-label="Download Thousandfold on the App Store"><img src="img/app-store-badge-white.svg" alt="Download on the App Store" width="132" height="44"></a></p>
+    <p class="after" data-after hidden>This demo uses stock photos. In the app, it&rsquo;s any photo you choose, built from your own library.</p>
   </div>
 </section>
 
@@ -56,14 +57,14 @@
 </div></section>
 
 <section><div class="wrap">
-  <h2>Start with anything.</h2>
-  <p class="lead" style="margin-top:14px">A photo you love, an idea you can only describe, or something you make yourself.</p>
-  <div class="starts">
-    <div class="start s1"><b>Choose a Photo</b><span>Anything in your library</span></div>
-    <div class="start s2"><b>Describe a Picture</b><span>Type it, and Apple Intelligence draws it</span></div>
-    <div class="start s3"><b>Make Your Own</b><span>Shapes, words or a doodle. No skill needed</span></div>
-    <div class="start s4"><b>Surprise Me</b><span>It picks one</span></div>
-  </div>
+  <div class="center"><h2>Start with anything.</h2>
+  <p class="lead" style="margin-top:14px">A photo you love, an idea you can only describe, or something you make yourself.</p></div>
+  <ul class="starts">
+    <li><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="8.5" cy="10" r="1.6"/><path d="m4 17 5-4 3.5 2.5L16 12l4 4"/></svg><b>Choose a Photo</b><span>Anything in your library</span></li>
+    <li><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 19 11-11 2.5 2.5L7.5 21.5z"/><path d="M15 4v3M13.500 5.500h3M19.500 13v2.500M18.200 14.200h2.600M8 4v2M7 5h2"/></svg><b>Describe a Picture</b><span>Type it, and Apple Intelligence draws it</span></li>
+    <li><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18c1.400 0 2-.9 2-1.900 0-1.300-1-1.700-1-2.800 0-1 .8-1.800 1.900-1.800H17a4 4 0 0 0 4-4C21 6.200 17 3 12 3z"/><circle cx="7.500" cy="11" r="1"/><circle cx="10" cy="7.500" r="1"/><circle cx="14.500" cy="7.500" r="1"/></svg><b>Make Your Own</b><span>Shapes, words or a doodle. No skill needed</span></li>
+    <li><svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="1.600" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7h3.500c2 0 3.200 1 4.300 2.600l2.400 4.800C14.300 16 15.500 17 17.500 17H21"/><path d="M3 17h3.500c1.400 0 2.400-.5 3.200-1.300M21 7h-3.500c-1.400 0-2.400.5-3.200 1.300"/><path d="m18.500 4.500 2.500 2.500-2.500 2.500M18.500 14.500l2.500 2.500-2.500 2.500"/></svg><b>Surprise Me</b><span>It picks one</span></li>
+  </ul>
   <div class="row flip" style="margin-top:clamp(32px,4vw,52px)">
     <div class="devices"><img src="img/iphone-make.webp?v=2" alt="Make Your Own on iPhone: a heart and a word on a colored background" loading="lazy" width="560" height="1145"><img src="img/iphone-made.webp?v=2" alt="The same picture built from photos" loading="lazy" width="560" height="1145"></div>
     <div class="copy"><h2>Not an artist? Good.</h2><p class="lead">Put a heart and a name on a color and press Build It. Your photos do the rest. A mosaic forgives everything.</p></div>
@@ -75,15 +76,12 @@
     <div class="copy"><h2>Watch it build.</h2><p class="lead">The camera starts so low that each photo looks like a normal picture. Then it lifts, more and more come in, and somewhere on the way up you see what they&rsquo;re making.</p><p class="lead">Or skip all that, and have the whole thing right away.</p></div>
     <div class="devices"><video class="video-frame" data-video src="" data-src="img/iphone-lift.mp4?v=3" poster="img/iphone-lift-poster.webp?v=2" muted loop playsinline width="660" height="1350" aria-label="Thousandfold on iPhone: the camera lifts as a picture is built from photos"></video></div>
   </div>
-  <div class="ways">
-    <figure class="way"><video data-video data-src="img/way-spiral.mp4?v=7" poster="img/way-spiral.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Spiral</b>Winding outward as the view pulls back.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-bloom.mp4?v=7" poster="img/way-bloom.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Bloom</b>Patches grow until they meet.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-clock.mp4?v=7" poster="img/way-clock.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Clock</b>One hand sweeps it into being.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-snake.mp4?v=7" poster="img/way-snake.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Snake</b>A line winds back and forth.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-rain.mp4?v=7" poster="img/way-rain.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Rain</b>Falling anywhere, until it appears.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-curtain.mp4?v=7" poster="img/way-curtain.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Curtain</b>Filling from the top down.</figcaption></figure>
-    <figure class="way"><video data-video data-src="img/way-develop.mp4?v=7" poster="img/way-develop.webp?v=3" muted loop playsinline width="480" height="480" aria-hidden="true"></video><figcaption><b>Develop</b>Dark first, like a print coming up.</figcaption></figure>
-    <figure class="way"><img src="img/way-random.webp?v=3" alt="" loading="lazy" width="480" height="480"><figcaption><b>Random</b>A different one each time you watch.</figcaption></figure>
+  <div class="modes center" data-modes>
+    <h2>Nine ways to watch.</h2>
+    <p class="lead">Tap one. This is the real picture, building right here.</p>
+    <div class="mode-stage"><canvas width="1200" height="1200" aria-label="A picture of a lighthouse being built out of photos"></canvas><button type="button" class="again" data-mode-again hidden>Watch Again</button></div>
+    <div class="mode-chips" role="group" aria-label="Ways to build"><button type="button" class="mode" data-mode="spiral" data-detail="Winding outward in one arm as the view pulls back." aria-pressed="false">Spiral</button><button type="button" class="mode" data-mode="lift" data-detail="Starts so low each photo looks like a normal picture, then the camera rises." aria-pressed="false">Camera Lift</button><button type="button" class="mode" data-mode="random" data-detail="A different one each time you watch." aria-pressed="false">Random</button><button type="button" class="mode" data-mode="bloom" data-detail="Patches appear here and there, and grow until they meet." aria-pressed="false">Bloom</button><button type="button" class="mode" data-mode="clock" data-detail="One hand sweeps around the picture, leaving photos behind it." aria-pressed="false">Clock</button><button type="button" class="mode" data-mode="snake" data-detail="A line of photos winds back and forth, from the top to the bottom." aria-pressed="false">Snake</button><button type="button" class="mode" data-mode="rain" data-detail="Photos fall anywhere until the picture appears." aria-pressed="false">Rain</button><button type="button" class="mode" data-mode="curtain" data-detail="The picture fills from the top down." aria-pressed="false">Curtain</button><button type="button" class="mode" data-mode="develop" data-detail="Dark photos land first, then the bright ones, like a print coming up." aria-pressed="false">Develop</button></div>
+    <p class="mode-line" data-mode-line aria-live="polite"></p>
   </div>
 </div></section>
 
@@ -99,17 +97,25 @@
 </div></section>
 
 <section id="private"><div class="wrap">
-  <h2>Your library stays yours.</h2>
+  <div class="center"><h2>Your library stays yours.</h2></div>
   <div class="promises">
     <div class="promise"><h3>Read here, on this device</h3><p>It looks through your photos on your device and never uploads your library. There&rsquo;s no account and no server of ours.</p></div>
     <div class="promise"><h3>Every photo as it is</h3><p>It never changes or deletes a photo, and it never tints one to fit. Each photo is used once, unless your library runs out of the very dark or very pale ones.</p></div>
     <div class="promise"><h3>Careful when you share</h3><p>Send a small-tiles copy, and nobody can zoom in on the photos inside. Send full detail, or a video of it building, when you want them to see the photos.</p></div>
   </div>
-  <p class="lead" style="margin-top:24px"><a href="privacy.html">Read exactly what can leave your device</a></p>
+  <p class="lead center" style="margin:24px auto 0;max-width:none"><a href="privacy.html">Read exactly what can leave your device</a></p>
+</div></section>
+
+<section class="closing"><div class="wrap center">
+  <img src="img/icon-128.png" alt="" width="96" height="96">
+  <h2>Thousandfold</h2>
+  <p class="lead">Any photo you have, built from the rest of your library. For iPhone, iPad and Mac.</p>
+  <p class="closing-store"><span class="soon" data-store-soon>Coming to the App Store</span><a class="text-store" data-store-live hidden href="#">Get it on the App Store</a></p>
+  <p class="closing-help"><a href="support.html">Help</a> &nbsp;&middot;&nbsp; <a href="mailto:support@thousandfoldapp.com">support@thousandfoldapp.com</a></p>
 </div></section>
 
 <!-- The maker's note goes here, in Eric's words, once he has written it. Nothing publishes in his name until then. -->
 </main>
 <footer class="foot"><div class="wrap"><span>&copy; 2026 Chai Wellness</span><span><a href="privacy.html">Privacy</a> &nbsp; <a href="support.html">Support</a> &nbsp; <a href="credits.html">Photo credits</a></span></div></footer>
-<script src="site.js?v=2" defer></script><script src="store.js" defer></script>
+<script src="site.js?v=3" defer></script><script src="store.js" defer></script>
 </body></html>
