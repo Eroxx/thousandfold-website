@@ -1,6 +1,6 @@
 // One engine for the opening and the mode player: real mosaics, 48 tiles across, with the app's landings and Crate's camera.
 var Build = (function () {
-  var GRID = 48, DROP = 0.5, CLOSE = 12, INK = "#17171b";
+  var GRID = 48, DROP = 0.5, CLOSE = 12, INK = "#202026";
   function smooth(x) { var c = Math.max(0, Math.min(1, x)); return c * c * (3 - 2 * c); }
   function cameraScale(t, over) { return 1 + (CLOSE - 1) * (1 - smooth(t / over)); }
   function progressAt(s) { var y = Math.max(0, Math.min(1, 1 - (s - 1) / (CLOSE - 1))); return 0.5 - Math.sin(Math.asin(1 - 2 * y) / 3); }

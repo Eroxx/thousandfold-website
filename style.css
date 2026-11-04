@@ -1,11 +1,11 @@
 :root{color-scheme:dark}
-:root{--ink:#17171b;--card:#26262d;--line:#33333b;--paper:#f2eee0;--dim:#b8b3a8;--amber:#f5bd66;--serif:ui-serif,"New York",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+:root{--ink:#202026;--card:#2e2e36;--line:#3b3b44;--paper:#f2eee0;--dim:#b8b3a8;--amber:#f5bd66;--serif:ui-serif,"New York",Georgia,serif;--sans:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
 *{box-sizing:border-box}html{background:var(--ink);scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--paper);font:18px/1.55 var(--sans);-webkit-font-smoothing:antialiased}
 [hidden]{display:none!important}img,video{display:block;max-width:100%;height:auto}a{color:var(--amber)}
 h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.08;margin:0;letter-spacing:-.01em}
 h2{font-size:clamp(34px,5.2vw,62px)}h3{font-size:clamp(22px,2.4vw,28px)}p{margin:0}.lead{color:var(--dim);font-size:clamp(18px,1.7vw,22px);max-width:34em}
 .wrap{width:min(1180px,100% - 40px);margin-inline:auto}section{padding:clamp(32px,3.4vw,54px) 0;scroll-margin-top:60px}
-.nav{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px max(20px,env(safe-area-inset-right,0px)) 12px max(20px,env(safe-area-inset-left,0px));background:#17171bd9;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.nav{position:fixed;inset:0 0 auto;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px max(20px,env(safe-area-inset-right,0px)) 12px max(20px,env(safe-area-inset-left,0px));background:#202026d9;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
 .brand{display:flex;gap:10px;align-items:center;color:var(--paper);text-decoration:none;font:700 24px var(--serif)}.brand img{width:40px;height:40px;border-radius:9px}
 .nav nav{display:flex;gap:18px;font-size:15px}.nav nav a{color:var(--paper);text-decoration:none}@media(max-width:620px){.nav nav a:not(:last-child){display:none}}
 .soon{display:inline-block;color:#17130a;background:var(--amber);border-radius:99px;padding:10px 18px;font-weight:600;font-size:15px}
